@@ -1,0 +1,4 @@
+name: MessingAround
+version: '${project.version}'
+main: com.hill.messing.messingaround.MessingAround
+api-version: 1.19
