@@ -11,6 +11,7 @@ public final class MessingAround extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         Bukkit.getPluginManager().registerEvents(new BossBarListener(), this);
+        System.out.println("Welcome");
     }
 
     @Override
