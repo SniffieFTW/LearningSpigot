@@ -32,7 +32,7 @@ public class FWork implements CommandExecutor {
             Location loc = b.getLocation();
 
             //If you just want to do a distance and not a block use Vector and set loc = p.getLocation() and set front = loc.add(dir)
-                // & Commit out Block b = p....
+                // & Commit out Block b = p...
 
             //Vector dir = p.getLocation().getDirection().multiply(10);
 
