@@ -38,7 +38,7 @@ To clone and run this application, you'll need Intellij or Eclipse, and Maven li
 
 ## Download
 
-You can [download]([https://github.com/SniffieFTW/LearningSpigot](https://github.com/SniffieFTW/LearningSpigot/archive/refs/heads/main.zip)) the latest installable version of LearningSpigot.
+You can [download](https://github.com/SniffieFTW/LearningSpigot/archive/refs/heads/main.zip) the latest installable version of LearningSpigot.
 
 
 ## Credits
