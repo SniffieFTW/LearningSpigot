@@ -26,7 +26,6 @@ public class FWork implements CommandExecutor {
             //Makes sure it's a player doing the command
             Player p = (Player) sender;
             // Gets the Block The player is looking at
-
             Block b = p.getTargetBlock((Set<Material>) null, 5);
             //Gets PLayers Location and Direction
             Location loc = b.getLocation();
@@ -44,7 +43,9 @@ public class FWork implements CommandExecutor {
             FireworkMeta fmeta = (FireworkMeta) firework.getFireworkMeta();
             //Building & Customizing FireWork
             fmeta.addEffect(FireworkEffect.builder().withColor(Color.BLUE).withColor(Color.BLACK).with(Type.STAR).withTrail().build());
+            // Sets Power from 1-5
             fmeta.setPower(1);
+            // Combines it all and Makes the Firework itself
             firework.setFireworkMeta(fmeta);
         }
 
